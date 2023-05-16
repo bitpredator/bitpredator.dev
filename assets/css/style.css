@@ -85,4 +85,36 @@
       float: none;
     }
 }
-  
+
+/*Link*/
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/*Text*/
+h1 {
+ color: white;
+ font-size: 110%;
+ line-height: 1.4;
+ position: relative;
+}
